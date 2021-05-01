@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Georgia, 'Times New Roman', Times, serif
 
 }
 
@@ -58,6 +58,14 @@ ul li a:hover{
     margin-top: 20px; 
     margin-right: 20px;
     border-right: black solid 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidepanel-divs{
+    padding: 50px 10px;
+    font-size: 27px;
 }
 
 /* formatting that all sections will share --careful with insertions  */
@@ -73,14 +81,40 @@ section{
     
 }
 
-/* Jumbo display */ 
- mainApp{ 
+/* Jumbo display of main app link */ 
+
+#big-display-project{ 
+    height: 400px ;
+    display: flex;
+    border: dotted black 5px;
+ }
+
+ /* small projects */ 
+
+ #small-projects-section{
+    border: black dotted 5px;
+    display: flex;
+    height: 500px;
+ 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+ }
+
+ .small-projects{
+    
+     height: 40%;
+     width: 45%;
+     border: #056196 solid 5px;
+     margin: 10px;
+
+     
+     
 
  }
 
 
 
-/* Jumbo display of foremost app link */ 
 
 /* footer */
 
