@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px;
+
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/* header and navigation bar */
+header{
+    padding: 20px; 
+    background-color: #13c43f;
+    
+    justify-content: space-between;  
+   
+}
+
+header h1{
+    display: inline;
+    width: 300px ;
+    justify-content: center;
+    
+}
+
+header nav{
+    float: right;
+    width: 600px;
+
+}
+
+ul li{
+    display: inline;
+    font-size: 20px;
+    
+}
+
+ul li a{
+    margin: 0 30px;
+    opacity: 1;
+}
+
+ul li a:hover{
+    opacity: .5;
+
+}
+
+/* sideplanel coresponding to content pushed left */
+#sidepanel{
+    float: left; 
+    width: 25%;
+    height: 800px;
+    border: 5px black solid;  
+    clear: both;
+    margin-top: 20px; 
+    margin-right: 20px;
+    border-right: black solid 8px;
+}
+
+/* formatting that all sections will share --careful with insertions  */
+section{
+     
+}
+
+.about-me{
+    
+    margin-top: 40px;
+    background-color: pink; 
+    width: 400px; 
+    
+}
+
+/* Jumbo display */ 
+ mainApp{ 
+
+ }
+
+
+
+/* Jumbo display of foremost app link */ 
+
+/* footer */
+
+footer div{
+    border: black solid 1px; 
+    display: inline;
+    width: 100%;
+    background-color: green;
+}
+
