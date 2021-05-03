@@ -59,7 +59,7 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-right: black solid 3px;
+  /*  border-right: black solid 3px;  */
 
 }
 
@@ -80,8 +80,8 @@ nav ul li a:hover{
 
 #projects-side{
     position: absolute;
-    top: 300px;
-    height: 600px;
+    top: 225px;
+    height: 900px;
     border-right: black solid 5px; 
 
     
@@ -89,7 +89,7 @@ nav ul li a:hover{
 
 #contact-me-side{
 position: absolute;
-top: 1150px;
+top: 1160px;
 border-right: black solid 5px;
 }
 /* formatting that all sections will share --careful with insertions  */
@@ -168,9 +168,7 @@ border-right: black solid 5px;
      justify-content: center;
     
  }
- .small-projects article{
-     background-image: url("assets/images /calculator-app.jpeg");
- }
+ 
 
  .small-projects:hover{
      opacity: .6;
@@ -194,7 +192,33 @@ border-right: black solid 5px;
      margin-top:5px;
      font-size: 14px;
  }
-/* contact me */
+
+/* background images to fit into each app display*/
+
+ #big-display-project{
+     background-image: url();
+ }
+
+#project1{
+    background-image:url();
+}
+
+
+
+#project2{
+    background-image: url();
+}
+
+#project3{
+    background-image: url();
+}
+
+#project4{
+    background-image: url();
+}
+
+
+/* Contact Me */
 
 footer{
     border: black solid 1px; 
