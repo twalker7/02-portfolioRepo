@@ -64,22 +64,33 @@ nav ul li a:hover{
 }
 
 .sidepanel-divs{
-    padding: 50px 10px;
+    padding: 20px 10px;
     font-size: 27px;
-    
+    width: 25%
 }
 
 #about-me-side{
-    height: 8%;
+    height: 100px;
+    position:absolute;
+    top: 80px;
+    border-right: black solid 5px;
+    align-content: center;
+    margin-top: 15px;
 }
 
 #projects-side{
-    height: 50%;
+    position: absolute;
+    top: 300px;
+    height: 600px;
+    border-right: black solid 5px; 
+
     
 }
 
 #contact-me-side{
-
+position: absolute;
+top: 1150px;
+border-right: black solid 5px;
 }
 /* formatting that all sections will share --careful with insertions  */
 /* section{
@@ -157,31 +168,44 @@ nav ul li a:hover{
      justify-content: center;
     
  }
+ .small-projects article{
+     background-image: url("assets/images /calculator-app.jpeg");
+ }
 
  .small-projects:hover{
      opacity: .6;
  }
 
- .small-projects a{
+ .small-projects div{
     background-color: grey;
     position: relative; 
-    left: 10px;
-    top: 40px;
-    height: 50px;
+    
+    top: 90px;
+    height: 60px;
+    width: 130px;
+    text-align: center;
+    
+ }
+ .small-projects div a{
+     font-size: 20px;
  }
 
+ .small-projects div p{
+     margin-top:5px;
+     font-size: 14px;
+ }
 /* contact me */
 
 footer{
     border: black solid 1px; 
     
-    width: 71%;
+    width: 70%;
     float: left;
     height: 100px;
     background-color: #056196;
     justify-content: space-between;
     display:flex;
-    margin: 10px 0 0 0;
+    margin: 10px 0 0 25px;
     justify-content: center;
     align-items: center;
     
