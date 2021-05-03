@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
 
 }
 
@@ -14,7 +14,6 @@ body{
 header{
     padding: 20px; 
     background-color: #13c43f;
-    
     justify-content: space-between;  
    
 }
@@ -28,22 +27,22 @@ header h1{
 
 header nav{
     float: right;
-    width: 600px;
+    width: 700px;
 
 }
 
-ul li{
+nav ul li{
     display: inline;
     font-size: 20px;
     
 }
 
-ul li a{
+nav ul li a{
     margin: 0 30px;
     opacity: 1;
 }
 
-ul li a:hover{
+nav ul li a:hover{
     opacity: .5;
 
 }
@@ -52,53 +51,101 @@ ul li a:hover{
 #sidepanel{
     float: left; 
     width: 25%;
-    height: 800px;
-    border: 5px black solid;  
-    clear: both;
+    height: 1200px; 
+  
     margin-top: 20px; 
-    margin-right: 20px;
-    border-right: black solid 8px;
+    margin-right: 30px;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-right: black solid 3px;
+
 }
 
 .sidepanel-divs{
     padding: 50px 10px;
     font-size: 27px;
+    
 }
 
+#about-me-side{
+    height: 8%;
+}
+
+#projects-side{
+    height: 50%;
+    
+}
+
+#contact-me-side{
+
+}
 /* formatting that all sections will share --careful with insertions  */
-section{
+/* section{
      
+} */
+
+#about-me{
+    
+    margin: 20px 10px ;
+    /* background-color: yellow; 
+    border: solid blue 1px;
+    */
+    display: flex;
+    justify-content: center;
+    
+    height: 100px;
+    width: 70%;
 }
 
-.about-me{
+#about-me div{
+    margin: 0px 10px;
+    width: 100%;
+}
+
+
+/* container of all projects Big and Small*/
+#projects{
     
-    margin-top: 40px;
-    background-color: pink; 
-    width: 400px; 
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    flex-direction:column;
+   
 }
 
 /* Jumbo display of main app link */ 
-
 #big-display-project{ 
-    height: 400px ;
+    height: 400px;
     display: flex;
-    border: dotted black 5px;
+    border: solid black 5px;
+    width: 95%;
+    margin: 5px auto 5px auto;
+ }
+
+ #big-display-project img{
+     width: 100%;
+ }
+
+ #big-display-project img:hover{
+     opacity: .6;
  }
 
  /* small projects */ 
 
  #small-projects-section{
-    border: black dotted 5px;
+    border: black solid 5px;
     display: flex;
     height: 500px;
+    width: 95%;
  
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
+    margin: 5px auto 10px auto;
+    
  }
 
  .small-projects{
@@ -106,22 +153,45 @@ section{
      height: 40%;
      width: 45%;
      border: #056196 solid 5px;
-     margin: 10px;
-
-     
-     
-
+     margin: 10px;   
+     justify-content: center;
+    
  }
 
+ .small-projects:hover{
+     opacity: .6;
+ }
 
+ .small-projects a{
+    background-color: grey;
+    position: relative; 
+    left: 10px;
+    top: 40px;
+    height: 50px;
+ }
 
+/* contact me */
 
-/* footer */
-
-footer div{
+footer{
     border: black solid 1px; 
-    display: inline;
-    width: 100%;
-    background-color: green;
+    
+    width: 71%;
+    float: left;
+    height: 100px;
+    background-color: #056196;
+    justify-content: space-between;
+    display:flex;
+    margin: 10px 0 0 0;
+    justify-content: center;
+    align-items: center;
+    
 }
 
+footer ul li{
+    display: inline;
+    font-size: 24px;
+    padding: 0px 0px;
+    border-bottom: solid 5px cadetblue;
+    justify-content:space-between;
+    margin: 20px;
+}
