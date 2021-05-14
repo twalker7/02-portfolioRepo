@@ -233,3 +233,12 @@ footer ul li{
     justify-content:space-between;
     margin: 20px;
 }
+/* MEDIA QUERY SECTION  -- Make the application mobile friendly  */ 
+/* this media query prevents element overlap when the screen becomes small, fitting most elements to the screen respectively */
+  @media screen and (max-width: 480px ){
+     *{
+         display: flex;
+         flex-wrap: wrap;
+     }
+        
+}
