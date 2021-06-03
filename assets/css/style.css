@@ -235,10 +235,18 @@ footer ul li{
 }
 /* MEDIA QUERY SECTION  -- Make the application mobile friendly  */ 
 /* this media query prevents element overlap when the screen becomes small, fitting most elements to the screen respectively */
-  @media screen and (max-width: 480px ){
-     *{
-         display: flex;
-         flex-wrap: wrap;
-     }
+    @media screen and (max-width: 675px ){
+       /* *{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        */
+        .small-projects{
+            height: 150px;
+            width: 150px;
+
+        }
         
-}
+    }
+
+  
