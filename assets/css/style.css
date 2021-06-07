@@ -193,7 +193,7 @@ border-right:  #78a2b6 solid 5px;
  }
 
 #project1{
-    background-image:url();
+    background-image:url('/portfoliomockup.gif');
 }
 
 
@@ -224,6 +224,7 @@ footer{
     align-items: center;
     
 }
+
 
 footer ul li{
     display: inline;
