@@ -171,7 +171,7 @@ border-right:  #78a2b6 solid 5px;
     background-color: grey;
     position: relative; 
     
-    top: 90px;
+    top: 50px;
     height: 60px;
     width: 130px;
     text-align: center;
@@ -179,18 +179,14 @@ border-right:  #78a2b6 solid 5px;
  }
  .small-projects div a{
      font-size: 20px;
-     z-index: 2;
  }
 
  .small-projects div p{
      margin-top:5px;
      font-size: 14px;
-     z-index: 2;
  }
 
- .small-projects div img{
-     z-index: 1;
- }
+/* .small-projects div img{}  */
 
 /* background images to fit into each app display*/
 
