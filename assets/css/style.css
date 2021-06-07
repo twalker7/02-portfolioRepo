@@ -179,14 +179,23 @@ border-right:  #78a2b6 solid 5px;
  }
  .small-projects div a{
      font-size: 20px;
+     z-index: 2;
  }
 
  .small-projects div p{
      margin-top:5px;
      font-size: 14px;
+     z-index: 2;
+ }
+
+ .small-projects div img{
+     z-index: 1;
  }
 
 /* background images to fit into each app display*/
+
+
+/* background-image link issues -- code commented out for later resolution
 
  #big-display-project{
      background-image: url();
@@ -195,7 +204,6 @@ border-right:  #78a2b6 solid 5px;
 #project1{
     background-image:url('/portfoliomockup.gif');
 }
-
 
 
 #project2{
@@ -209,7 +217,7 @@ border-right:  #78a2b6 solid 5px;
 #project4{
     background-image: url();
 }
-
+*/
 
 /* Contact Me */
 
